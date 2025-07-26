@@ -1,0 +1,44 @@
+@font-face {
+    font-family: IRANYekanX;
+    src: url(../font/IRANYekanX-Black.woff2);
+}
+
+body{
+    font-family: IRANYekanX;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.accs{
+    margin-top: 50px;
+}
+
+.acc{
+    border: 1px solid #ddd;
+}
+
+.acc:first-child{
+    border-radius: 15px 15px 0 0;
+}
+
+.acc:last-child{
+    border-radius: 0 0 15px 15px;
+}
+
+.title{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.content{
+    padding: 10px;
+    color: #aaa;
+    font-size: small;
+    display: none;
+}
