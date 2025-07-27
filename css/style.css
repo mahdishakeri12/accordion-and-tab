@@ -3,42 +3,70 @@
     src: url(../font/IRANYekanX-Black.woff2);
 }
 
-body{
+body {
     font-family: IRANYekanX;
     margin: 0;
     padding: 0;
     direction: rtl;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: auto;
 }
 
-.accs{
+.accs {
     margin-top: 50px;
 }
 
-.acc{
+.acc {
     border: 1px solid #ddd;
 }
 
-.acc:first-child{
+.acc:first-child {
     border-radius: 15px 15px 0 0;
 }
 
-.acc:last-child{
+.acc:last-child {
     border-radius: 0 0 15px 15px;
 }
 
-.title{
+.title {
     padding: 15px;
     cursor: pointer;
 }
 
-.content{
+.content {
     padding: 10px;
     color: #aaa;
     font-size: small;
     display: none;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tabs ul li {}
+
+.tabs ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1rem 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #bdffdd;
 }
