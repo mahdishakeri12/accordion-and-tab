@@ -6,5 +6,9 @@ $(document).ready(function () {
         e.preventDefault();
         $('.tabs ul li a').removeClass('active')
         $(this).addClass('active');
+        $('.tab-content').hide();
+        $temp = '#' + $(this).attr('data-id');
+        console.log($temp)
+        $($temp).slideDown();
     })
 })

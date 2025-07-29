@@ -70,3 +70,12 @@ body {
 .active {
     background-color: #bdffdd;
 }
+
+.tabs-content{
+    align-items: center;
+    text-align: center;
+}
+
+.tab-content:not(:first-child){
+    display: none;
+}
